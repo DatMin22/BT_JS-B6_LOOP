@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="w-50 m-auto">
+    <div class="container mt-5">
+        <h2>Tìm số nguyên dương nhỏ nhất</h2>
+        <form id="findNumberForm">
+            <div class="form-group">
+                <label for="result">Số nguyên dương nhỏ nhất là:</label>
+                <input type="text" class="form-control" id="result" readonly>
+            </div>
+            <button type="submit" class="btn btn-primary">Tìm số</button>
+        </form>
+    </div>
+    <div class="container mt-5">
+        <h2>Tính tổng S(N)</h2>
+        <form id="CalTotal">
+            <div class="form-group">
+                <label for="num1">Số X</label>
+                <input type="number" class="form-control" id="num1">
+            </div>
+            <div class="form-group">
+                <label for="num2">Số N</label>
+                <input type="number" class="form-control" id="num2">
+            </div>
+            <button type="submit" class="btn btn-primary">Tìm số</button>
+
+        </form>
+        <div id="rs_total"></div>
+
+
+    </div>
+
+    <div class="container mt-5">
+        <h1>Tính giai thừa từ 1 đến n</h1>
+        <div>
+            <label for="number">Nhập 1 số:</label>
+            <input type="number" id="number" class="form-control" required>
+        </div>
+        <div class="mt-3">
+            <button class="btn btn-primary" onclick="calculateFactorial()">Tính</button>
+        </div>
+        <div class="mt-3">
+            <h3>Kết quả:</h3>
+            <p id="resultFactorial"></p>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2>In ra các thẻ div</h2>
+        <button id="printDivButton" class="btn btn-primary">In ra các div</button>
+        <div id="resultDiv"></div>
+    </div>
+    <div class="container my-5">
+        <h2>In ra các số nguyên tố </h2>
+        <div class="form-group">
+            <input type="number" id="inputNumber" class="form-control" placeholder="Nhập giá trị">
+
+        </div>
+        <button id="printButton" class="btn btn-primary">In ra</button>
+
+        <div id="resultPrime"></div>
+    </div>
+    <script src="./js/main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.even {
+    color: #fff;
+    padding: 1rem;
+
+    text-align: center;
+    margin: 10px 0;
+    background-color: red;
+}
+
+.odd {
+    color: #fff;
+
+    padding: 1rem;
+    margin: 10px 0;
+    text-align: center;
+
+    background-color: blue;
+}
